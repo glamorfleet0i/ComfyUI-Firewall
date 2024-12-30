@@ -42,3 +42,5 @@ else:
     
     header_source = "the Cloudflare header \"Cf-Connecting-Ip\"" if SHOULD_USE_CLOUDFLARE_IP else "the aiohttp remote"
     logging.info(f"[Firewall] Using {header_source} to determine user IP addresses.")
+
+NODE_CLASS_MAPPINGS = {}
